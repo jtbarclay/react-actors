@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        <h1>React Actors</h1>
+        <h3>© React Actors</h3>
       </div>
     );
   }
