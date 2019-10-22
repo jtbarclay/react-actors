@@ -41,7 +41,14 @@ class Contact extends Component {
   }
 
   handleButtonClick = () => {
-    
+    alert('Thank you ' + this.state.user.first);
+    this.setState({
+      user: {
+        first: '',
+        last: '',
+        impression: '',
+      }
+    })
   }
 
   render() {
